@@ -1,0 +1,11 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+C:/Users/Ben-Setup/Desktop/test/1
+    week2_lab.opj
+    week2_lab.dsn
+C:/Users/Ben-Setup/Desktop/test/1/week2_lab-PSpiceFiles
+C:/Users/Ben-Setup/Desktop/test/1/week2_lab-PSpiceFiles/SCHEMATIC1
+    lab2part1.sim
+C:/Users/Ben-Setup/Desktop/test/1/week2_lab-PSpiceFiles/SCHEMATIC1/lab2part1

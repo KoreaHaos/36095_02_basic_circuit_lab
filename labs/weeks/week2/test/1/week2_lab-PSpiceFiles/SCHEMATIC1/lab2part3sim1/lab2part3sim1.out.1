@@ -1,0 +1,56 @@
+
+**** 03/10/16 19:21:43 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab2part3sim1"  [ C:\Users\Ben-Setup\Desktop\test\1\week2_lab-PSpiceFiles\SCHEMATIC1\lab2part3sim1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab2part3sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Ben-Setup\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source WEEK2_LAB
+V_V1         N00107 0 0Vdc
+D_D1         N00107 0 D1N4148 
+D_D2         N01980 N00714 D1N4148 
+R_R1         N00723 N00714  1k TC=0,0 
+V_V2         N01980 N00723  
++SIN 0 6.3 60 0 0 0
+R_l2p3R1         N02540 N02522  10K TC=0,0 
+V_l2p3V1         N02511 0  
++SIN 0 6.0 60 0 0 0
+D_D3         N02522 0 D1N4148 
+D_D4         N02511 N02540 D1N4148 
+D_D5         0 N02540 D1N4148 
+D_D6         N02522 N02511 D1N4148 
+
+**** RESUMING lab2part3sim1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N01980 is floating
+
+ERROR(ORPSIM-15142): Node N00714 is floating
+
+ERROR(ORPSIM-15142): Node N00723 is floating
+

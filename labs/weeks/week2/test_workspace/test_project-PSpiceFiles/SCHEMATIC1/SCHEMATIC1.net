@@ -1,0 +1,4 @@
+* source TEST_PROJECT
+Q_Q1         N00271 N00266 0 Q2N2222
+V_V1         N00271 0 0Vdc
+I_I1         0 N00266 DC 0Adc  

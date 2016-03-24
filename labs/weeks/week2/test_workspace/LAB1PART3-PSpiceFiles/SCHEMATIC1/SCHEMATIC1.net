@@ -1,0 +1,5 @@
+* source LAB1PART3
+C_C1         N01373 N01073  0.1uF  TC=0,0 
+I_V1         N01373 0 DC 0Vdc AC 1Vac 
+R_R1         0 N01073  5K TC=0,0 
+R_R2         0 N01373  100Meg TC=0,0 

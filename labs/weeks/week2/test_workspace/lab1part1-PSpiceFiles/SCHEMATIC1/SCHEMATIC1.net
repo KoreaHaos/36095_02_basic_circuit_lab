@@ -1,0 +1,4 @@
+* source LAB1PART1
+Q_Q1         N00130 N00149 0 Q2N2222
+I_I1         0 N00149 DC 0Adc  
+V_V1         N00130 0 0Vdc

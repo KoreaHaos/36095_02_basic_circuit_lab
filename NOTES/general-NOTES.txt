@@ -1,0 +1,21 @@
+PSpice student download : http://www.orcad.com/resources/orcad-downloads#pspice
+
+The download link they sent me:
+http://mandrillapp.com/track/click/30490939/cadencecom.vo.llnwd.net?p=eyJzIjoiYVdMelVGclUwMEJLSWMtdVRJd2luUUJfbW5JIiwidiI6MSwicCI6IntcInVcIjozMDQ5MDkzOSxcInZcIjoxLFwidXJsXCI6XCJodHRwOlxcXC9cXFwvY2FkZW5jZWNvbS52by5sbG53ZC5uZXRcXFwvdjFcXFwvb3JjYWRcXFwvMTYuNl8yMDE1X09yQ0FEX0xpdGVfQWxsX1Byb2R1Y3RzLnppcFwiLFwiaWRcIjpcImI1Y2FlNjMyMWU3MDRhNjg4YTE4MGYyM2IwZTIxYTU5XCIsXCJ1cmxfaWRzXCI6W1wiZWRjYTc2NTY2ZDg0NDMzMDA2YzM4YWUxNmExZjcyMmZlNjZiMGE0YlwiXX0ifQ
+
+OrCAD Tutorial:
+http://www.orcadmarketplace.com/Capture-Tutorial/captutor.htm
+
+Online tools:
+https://www.circuitlab.com/
+s CircuitLab Student Edition free? 
+COST : CircuitLab is free for students if your school has purchased a school-wide site license for $1200/semester (6 months). If your school does not purchase a site-wide license, individual student licenses may be available for $12/semester (6 months).CircuitLab
+
+http://www.partsim.com/simulator
+
+Open source research:
+http://opencircuitdesign.com/
+
+TOOLS:
+http://lushprojects.com/circuitjs/circuitjs.html
+

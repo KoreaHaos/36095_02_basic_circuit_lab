@@ -1,0 +1,49 @@
+
+**** 03/10/16 19:04:54 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab2part2sim1"  [ C:\Users\Ben-Setup\Desktop\test\1\week2_lab-PSpiceFiles\SCHEMATIC1\lab2part2sim1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab2part2sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Ben-Setup\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V2 0V 1V 0.1V 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source WEEK2_LAB
+V_V1         N00107 0 0Vdc
+D_D1         N00107 0 D1N4148 
+D_D2         N01980 N00714 D1N4148 
+R_R1         N00723 N00714  1k TC=0,0 
+V_V2         N01980 N00723  
++SIN 0 6.3 60 0 0 0
+
+**** RESUMING lab2part2sim1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N01980 is floating
+
+ERROR(ORPSIM-15142): Node N00714 is floating
+
+ERROR(ORPSIM-15142): Node N00723 is floating
+

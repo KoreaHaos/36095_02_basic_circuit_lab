@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-my_first_sim"  [ C:\Users\Ben-Setup\Desktop\test_workspace\test_project-PSpiceFiles\SCHEMATIC1\my_first_sim.sim ] 
+
+** Creating circuit file "my_first_sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Ben-Setup\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 0v 6v .1v 
++ LIN I_I1 0v 5mA .5mA 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
