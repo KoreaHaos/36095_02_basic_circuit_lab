@@ -25,6 +25,7 @@ A simulation with a square wave applied, shown in green, and current flow, shown
 
 (If you right click on the diode, you can view the scope waveform)
 
+Another way to understand the diode can be found by examining [this simulation](http://lushprojects.com/circuitjs/circuitjs.html?cct=$+1+0.000005+13.097415321081858+55+5+50%0Av+240+352+240+128+0+1+40+5+0+0+0.5%0Ar+544+128+544+352+0+640%0Ad+240+128+544+128+1+0.805904783%0Aw+240+352+544+352+0%0Ao+0+64+0+35+5+0.0125+0+-1%0Ao+1+64+0+35+5+0.0125+1+-1%0A).
 A common use of a diode can be understood by examining a "Half-Wave Rectifier" circuit. The basic circuit looks like this :
 
 ![image from handout](img/half_wave_rectifier_schematic_to_sim.png)
