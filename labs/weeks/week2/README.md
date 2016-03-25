@@ -14,7 +14,7 @@ A diode is a specialized electronic component with two electrodes called the ano
 
 ![diode scematic symbol](https://cdn.sparkfun.com/assets/d/6/b/f/a/5171b6bece395ff53c000000.PNG)
 
-* A diode allows elctricity yo flow in one direction but not the other. *(ideally)*
+* A diode allows electricity to flow in one direction but not the other. *(ideally)*
 * When the applied in the blocked dirrection the diode will experience [avalanche breakdown](https://en.wikipedia.org/wiki/Avalanche_breakdown).
 
 This is a basic example of a diode used in a circuit :
@@ -32,7 +32,7 @@ A common use of a diode can be understood by examining a "Half-Wave Rectifier" c
 
 [Example Half-Wave Rectifier circuit](http://lushprojects.com/circuitjs/circuitjs.html?cct=$+1+0.000005+13.097415321081858+55+5+50%0Av+240+352+240+128+0+1+40+5+0+0+0.5%0Ar+544+128+544+352+0+640%0Ad+240+128+544+128+1+0.805904783%0Aw+240+352+544+352+0%0Ao+0+64+0+35+5+0.0125+0+-1%0Ao+1+64+0+35+5+0.0125+1+-1%0A)
 
-Even more interesting, the full wave rectifier circuit, created with four diodes hooked in opposing pairs and wired in parrell, takes alternating current and returns with only positve current flow.
+Even more interesting, the full wave rectifier circuit, created with four diodes hooked in opposing pairs and wired in parallel, takes alternating current and returns with only positive current flow.
 
 A basic schematic looks like this :
 
@@ -44,3 +44,5 @@ And here is a scoped example of the
 ## Conclusion.
 
 Diodes are basic but useful electronic parts.
+
+
