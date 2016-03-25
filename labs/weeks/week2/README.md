@@ -1,8 +1,9 @@
-# Ewha Womans' Basic Circuit Laboratory II (36095-02)
+# Ewha Womans' Basic Circuit Laboratory II
+### (36095-02)
 
 ## Led by : [Professor Park, Sung Min](https://www.researchgate.net/profile/Sung_Park15)
 
-Taken by : Benjamin Haos
+An understanding by : Benjamin Haos
 
 ## Week Two (Friday March 11th 2016)
 
@@ -35,9 +36,13 @@ A common use of a diode can be understood by examining a [Half-Wave Rectifier](h
 
 ![image from handout](img/half_wave_rectifier_schematic_to_sim.png)
 
+The half-wave rectifing circuit allows positive current to pass through to the measurement device but uses the diode to blocks the negative current and thus our wave form only shows half the wave form.
+
 [Example Half-Wave Rectifier circuit](http://lushprojects.com/circuitjs/circuitjs.html?cct=$+1+0.000005+13.097415321081858+55+5+50%0Av+240+352+240+128+0+1+40+5+0+0+0.5%0Ar+544+128+544+352+0+640%0Ad+240+128+544+128+1+0.805904783%0Aw+240+352+544+352+0%0Ao+0+64+0+35+5+0.0125+0+-1%0Ao+1+64+0+35+5+0.0125+1+-1%0A)
 
-Even more interesting, the full wave rectifier circuit, created with four diodes hooked in opposing pairs and those pairs wired in parallel, takes alternating current with its wave form having positive and negative values on a labscope, and returns a waveform showing only positive current flow. Essentially, it reverses, or rectifies, the current.
+### Full-Wave Rectifier Diode Circuit:
+
+Even more interesting, the full wave rectifier circuit, created with four diodes hooked in opposing pairs and those pairs wired in parallel, takes alternating current with its typical wave form of positive and negative values, and returns a waveform with only positive values. As the circuit's name implies, it reverses, or rectifies, negative current but unlike the half-wave rectifier above, it does still passes the current through.
 
 A basic schematic looks like this :
 
